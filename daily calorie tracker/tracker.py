@@ -1,8 +1,12 @@
 # Name: Ayushi Thakur, Date: 3.10.25, Title: Calorie tracker
+#Task 1!
 print("Welcome to your personalised daily Calorie Tracker\n\tThis tool will help you track your health and cut down excess calories! ")
+
+#Task 2!
 meals = []
 m = int(input("How many meals would you like to enter? "))
 
+#Task 5!
 for i in range(m):
     meal = input("Enter meal type: ")
     while True:
@@ -23,12 +27,15 @@ print("Meal       Calories")
 print("-----------------------")
 for entry in meals:
     print(f"{entry['Meal']:10}  {entry['Calories']}")
-
+    
+#Task3!
 a=sum(entry['Calories'] for entry in meals)
 print("\nTotal Calories:", a)
 
+#Task 4!
 if a>2000:
     print("Now its time for some work out!")
 else:
 
     print("you're pretty healthy!")
+
