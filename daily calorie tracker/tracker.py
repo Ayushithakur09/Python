@@ -13,7 +13,7 @@ for i in range(m):
             print("Please enter a valid number.")
 
     meals.append({
-        "Meal": meal.strip(),
+        "Meal": meal,
         "Calories": calories
     })
 
@@ -30,4 +30,5 @@ print("\nTotal Calories:", a)
 if a>2000:
     print("Now its time for some work out!")
 else:
+
     print("you're pretty healthy!")
