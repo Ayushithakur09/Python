@@ -32,10 +32,13 @@ for entry in meals:
 a=sum(entry['Calories'] for entry in meals)
 print("\nTotal Calories:", a)
 
-#Task 4!
-if a>2000:
-    print("Now its time for some work out!")
-else:
+b=a/m
+print("Average:",b)
 
-    print("you're pretty healthy!")
+#Task4!
+if a>2000:
+    print("\nNow its time for some work out!")
+else:
+    print("\nyou're pretty healthy!")
+
 
